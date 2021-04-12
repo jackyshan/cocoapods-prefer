@@ -7,7 +7,7 @@ module Pod
   class Podfile
     module DSL
       
-      def prefer_source(source_name, url)
+      def prefer_source_inke(source_name, url)
         Pod::PreferConfig.instance.prefer_source(source_name, url)
         source(url)
       end

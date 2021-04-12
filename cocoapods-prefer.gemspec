@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cocoapods-prefer/gem_version.rb'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'cocoapods-prefer'
+  spec.name          = 'cocoapods-prefer-inke'
   spec.version       = CocoapodsPrefer::VERSION
   spec.authors       = ['bob']
   spec.email         = ['bob170731@gmail.com']
